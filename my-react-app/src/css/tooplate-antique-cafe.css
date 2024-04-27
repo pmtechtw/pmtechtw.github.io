@@ -27,12 +27,6 @@ p a:hover {
 
 footer span a { color: #FFF; }
 
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-    white-space: nowrap; /* 新增的屬性 */
-}
-
 .tm-logo-font {
     font-family: 'Oswald', sans-serif;
 }
@@ -164,6 +158,9 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 
     .tm-menu-item img {
         margin-bottom: 10px;
+        width: 200px; /* 固定宽度为 200px */
+        height: 150px; /* 固定高度为 150px */
+        object-fit: cover; /* 图像将被缩放以填充框，并保持其纵横比 */
     }
 
     .tm-menu-item-2 img {
