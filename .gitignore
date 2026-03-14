@@ -1,3 +1,25 @@
-.idea/modules.xml
-.idea/pmtechtw.github.io.iml
-.idea/vcs.xml
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# React build output
+my-react-app/build/
+my-react-app/coverage/
+
+# env
+.env
+.env.local
+.env.*.local
